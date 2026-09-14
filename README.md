@@ -1,51 +1,19 @@
-# Hello, I'm Luke Bourdon
-<a href="https://www.linkedin.com/in/luke-bourdon/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# Security policy suite
 
+Four board-submission policy drafts for fictional Northbridge Cloud Services Ltd, prepared as a GRC portfolio project by Luke Bourdon.
 
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+Read the [company context](projects/Sample-Security-Policy-suite/company-context.md), then the [board paper](projects/Sample-Security-Policy-suite/board-paper.md).
 
-## Objective
+| Document | Purpose |
+| --- | --- |
+| [Acceptable use](projects/Sample-Security-Policy-suite/acceptable-use-policy.md) | Practical workforce rules for devices, services, information and reporting |
+| [Incident response](projects/Sample-Security-Policy-suite/incident-response-policy.md) | Authority, severity, response, evidence and notification decisions |
+| [Access control](projects/Sample-Security-Policy-suite/access-control-policy.md) | Joiners, movers, leavers, privileged access and reviews |
+| [Data classification](projects/Sample-Security-Policy-suite/data-classification-policy.md) | Four classification levels with a handling matrix |
+| [Governance records](projects/Sample-Security-Policy-suite/governance-records.md) | Exception, acknowledgement, incident and approval record templates |
 
-My journey in Environmental science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a GRC Team as a GRC analyst.
+**Status:** v1.0, submitted for fictional board consideration on 14 September 2026. Approval and effective dates are intentionally pending. These are proposed controls, not proof of baseline implementation.
 
-## Skills
+Skills demonstrated: policy drafting, accountability, proportionate requirements, exception governance, measurable assurance and executive decision support.
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
-
-## Tools I use
-
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
-
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
-
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
-
-## Certifications i have
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-
-
-## Projects
-- Detection Lab
-- SOC Automation Project
+[Back to my GRC portfolio](https://github.com/LukeBourdon/LukeBourdon)
