@@ -1,51 +1,37 @@
 # Hello, I'm Luke Bourdon
-<a href="https://www.linkedin.com/in/luke-bourdon/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
+[LinkedIn](https://www.linkedin.com/in/luke-bourdon/)
 
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+I am working towards a career as a **Governance, Risk and Compliance (GRC) Analyst**. I hold CompTIA Security+ and am developing practical skills in security governance, risk assessment, control assurance and clear reporting for business decision-makers.
 
-## Objective
+## My GRC portfolio
 
-My journey in Environmental science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a GRC Team as a GRC analyst.
+I have completed the following portfolio case studies using **Northbridge Cloud Services Ltd**, a fictional UK software company. Each project contains the assessment or policy work, the assumptions behind it and actionable recommendations.
 
-## Skills
+These are self-directed, AI-assisted portfolio exercises. Company evidence, vendor responses and phishing outcomes are simulated; they are not claims of client work, live campaign delivery, certification, implemented remediation or board approval.
 
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
+| Project | What I produced | Skills demonstrated |
+| --- | --- | --- |
+| [Security policy suite](https://github.com/LukeBourdon/LukeBourdon/tree/Sample-Security-Policy-suite/projects/Sample-Security-Policy-suite) | Board decision paper; acceptable use, incident response, access control and data classification policies; governance templates | Policy drafting, accountability, exceptions and assurance |
+| [ISO 27001 gap analysis](https://github.com/LukeBourdon/LukeBourdon/tree/ISO-27001-Gap-analysis/projects/ISO-27001-Gap-analysis) | All 93 Annex A control references mapped to current state, evidence assumptions, gaps, owners and closure tests | Control assessment, applicability and remediation planning |
+| [NIST-informed risk assessment](https://github.com/LukeBourdon/LukeBourdon/tree/Conducting-a-Risk-Assessment-using-NIST/projects/Conducting-a-Risk-Assessment-using-NIST) | 12-asset inventory and 16-risk register with inherent, current and target scores | Threat analysis, likelihood/impact reasoning and risk treatment |
+| [Third-party vendor risk assessment](https://github.com/LukeBourdon/LukeBourdon/tree/Building-a-Third-Party-Vendor-Risk-Assessment/projects/Building-a-Third-Party-Vendor-Risk-Assessment) | 24-question questionnaire, 72 scored responses and decisions for three fictional vendors | Due diligence, evidence review, scoring and supplier remediation |
+| [Security awareness programme](https://github.com/LukeBourdon/LukeBourdon/tree/Designing-a-security-awareness-training-program/projects/Designing-a-security-awareness-training-program) | Training plan/materials, simulated-phishing design and synthetic results with follow-up actions | Programme design, behaviour metrics and management reporting |
 
-## Tools I use
+## How I approach GRC
 
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
+I aim to connect security requirements to business consequences: identify what matters, assess the evidence, explain uncertainty and recommend proportionate actions with clear ownership. The projects distinguish planned improvements from verified controls and current risk from a forecast target.
 
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
+## Certification
 
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
+- **CompTIA Security+**
 
-## Certifications i have
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
+## Additional project
 
+- [Detection Lab](https://github.com/LukeBourdon/Detection-Lab)
 
-## Projects
-- Detection Lab
-- SOC Automation Project
+## Explore and reproduce
+
+Each project is available in its named branch. The main branch also contains the [complete project collection](projects/) and a [validation script](tools/validate_portfolio.py) that checks control coverage, arithmetic and local documentation links. Run `python3 tools/validate_portfolio.py` from the repository root.
+
+I am interested in GRC Analyst opportunities where I can contribute to risk assessments, policy development, compliance monitoring and supplier assurance.
