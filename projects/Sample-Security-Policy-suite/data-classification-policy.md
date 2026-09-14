@@ -1,4 +1,4 @@
-# DC-001 — Data classification and handling policy
+# DC-001 - Data classification and handling policy
 
 **Northbridge Cloud Services Ltd | Internal | v1.0 | 14 September 2026**
 
@@ -10,7 +10,7 @@ Apply protection proportionate to business harm, privacy obligations and contrac
 
 ## Ownership and decisions
 
-Every dataset and repository must have a business owner who records its classification, purpose, authorised audience and retention rule. Classify at creation or receipt and review annually or when use changes. Use the highest applicable level for mixed datasets; if uncertain, treat as Confidential pending an owner decision. Personal data is at least Confidential; special-category HR data, credentials and recovery secrets are Restricted. Classification does not itself establish a lawful basis for processing.
+Every dataset and repository must have a business owner who records its classification, purpose, authorised audience and retention rule. Classify at creation or receipt and review annually or when use changes. Use the highest applicable level for mixed datasets; if uncertain, treat as Confidential pending an owner decision. Personal data is at least Confidential; special-category HR data, credentials and recovery secrets are Restricted. Classification does not itself establish a lawful basis for processing. Owners may assign a higher level when aggregation increases harm: the full production customer database and its backups are Restricted, while a minimised customer-contact export is at least Confidential.
 
 | Level | Examples | Access and sharing | Storage and transmission | Disposal |
 | --- | --- | --- | --- | --- |

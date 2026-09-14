@@ -8,6 +8,7 @@ from pathlib import Path
 import json
 import re
 from collections import Counter
+from statistics import median
 
 ROOT = Path(__file__).resolve().parents[1]
 P = ROOT / 'projects'
@@ -51,6 +52,14 @@ if path.exists():
             check(r[stage + '_score'] == l*i, r['id'] + ' arithmetic')
             check(r[stage + '_rating'] == rating(l*i), r['id'] + ' rating')
         check(r['target_score'] <= r['current_score'] <= r['inherent_score'], r['id'] + ' unexplained score direction')
+        check(r['target_assumption'] and r['acceptance_evidence'] and r['due_scope'], r['id'] + ' treatment rationale or milestone scope missing')
+        check(r['confidence'].startswith('Low'), r['id'] + ' evidence confidence')
+        if r['id'] in {'R06', 'R08', 'R11'}:
+            check(r['target_impact'] == r['current_impact'], r['id'] + ' unsupported impact reduction')
+        if (P / 'ISO-27001-Gap-analysis' / 'controls.json').exists():
+            by_id = {c['id']: c for c in controls}
+            for ref in r['annex_a']:
+                check(by_id[ref]['closure_test'] in r['acceptance_evidence'], r['id'] + ' stale action acceptance test')
     check(Counter(r['current_rating'] for r in risks) == {'Critical': 4, 'High': 10, 'Medium': 2}, 'Risk narrative totals')
     print('PASS: 12 assets, 16 risks; 48 scores and ratings; control cross-references')
 
@@ -74,6 +83,8 @@ if path.exists():
         final = 'Critical' if base == 'Critical' else 'High' if unmet else base
         check((v['gap_points'], v['max_points'], v['gap_percent']) == (points, maximum, round(pct, 2)), v['name'] + ' total arithmetic')
         check((v['base_rating'], v['unmet_gates'], v['final_rating']) == (base, unmet, final), v['name'] + ' gate/rating')
+        if v['name'] == 'Cedar Insight Analytics':
+            check(all(r['score'] == 0 for r in rows if r['question_id'] in {'Q05','Q11','Q24'}), 'Cedar unsupported claims credited')
     print('PASS: 72 vendor responses; weighted totals and mandatory gate overrides')
 
 path = P / 'Designing-a-security-awareness-training-program' / 'synthetic-campaign-data.json'
@@ -95,6 +106,18 @@ if path.exists():
         den = sum(r['delivered'] for r in rows)
         m = data['expected_metrics'][campaign]
         check(m['delivered'] == den, 'Delivery denominator')
+        report_text = (path.parent / 'campaign-results-report.md').read_text()
+        minutes = median(r['report_minutes'] for r in rows if r['reported'])
+        check(f'{minutes:.1f} min' in report_text, 'Median reporting time mismatch')
+        for department in {r['department'] for r in rows}:
+            group = [r for r in rows if r['department'] == department]
+            group_den = sum(r['delivered'] for r in group)
+            report_row = next(line for line in report_text.splitlines() if line.startswith('| '+department+' |'))
+            cells = [cell.strip() for cell in report_row.split('|')[1:-1]]
+            offset = 2 if campaign == 'baseline' else 3
+            for index, field in [(offset, 'unique_human_click'), (offset+2, 'reported')]:
+                count = sum(r[field] for r in group)
+                check(cells[index] == f'{count}/{group_den} ({100*count/group_den:.2f}%)', 'Department metric mismatch: '+department)
         for label, field in [('clicks','unique_human_click'),('submissions','dummy_submit'),('reports','reported')]:
             count = sum(r[field] for r in rows)
             check(m[label] == count and m[label+'_rate'] == round(100*count/den, 2), 'Campaign derived metric')
@@ -104,6 +127,12 @@ if path.exists():
     print('PASS: 240 participant-round records; cohorts, department totals and reported rates')
 
 markdown_files = list(P.rglob('*.md')) + [ROOT/'README.md']
+for path in list(P.rglob('*')) + list((ROOT/'tools').glob('*.py')) + [ROOT/'README.md']:
+    if path.is_file():
+        text = path.read_text()
+        check(chr(0x2014) not in text and ('\\u' + '2014') not in text.lower(), str(path) + ' em dash found')
+contexts = [path.read_text() for path in P.glob('*/company-context.md')]
+check(len(set(contexts)) <= 1, 'Company context differs between projects')
 for path in markdown_files:
     text = path.read_text()
     check(text.count('```') % 2 == 0, str(path) + ' unclosed code fence')

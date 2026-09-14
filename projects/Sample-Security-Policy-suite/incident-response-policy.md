@@ -1,4 +1,4 @@
-# IR-001 — Incident response policy
+# IR-001 - Incident response policy
 
 **Northbridge Cloud Services Ltd | Internal | v1.0 | 14 September 2026**
 

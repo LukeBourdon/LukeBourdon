@@ -1,4 +1,4 @@
-# AC-001 — Access control policy
+# AC-001 - Access control policy
 
 **Northbridge Cloud Services Ltd | Internal | v1.0 | 14 September 2026**
 
@@ -18,7 +18,7 @@ HR must notify IT before the start date and immediately upon a departure decisio
 
 MFA is mandatory for remote, cloud and privileged access. Privileged and high-risk roles must use phishing-resistant authentication where the service supports it; unsupported services require an approved mitigation and migration plan. Legacy authentication must be blocked after service dependency testing. Passwords must be unique, at least 14 characters where supported and screened against known compromised values. Change passwords on compromise or reset need; arbitrary routine changes are not required. Recovery must verify identity independently and must not bypass MFA through a weak help-desk process.
 
-Use separate named administrator accounts for administrative tasks only. Time-bound elevation must have an approved task and expire within eight hours. Record privileged activity and send security alerts for unusual elevation. Shared administrator accounts are prohibited except controlled emergency accounts. Maintain two emergency accounts with protected credentials, alert on every use, test quarterly and review each use within one business day. Rotate exposed emergency credentials immediately after use.
+Use separate named administrator accounts for administrative tasks only. Time-bound elevation must have an approved task and expire within eight hours. Record privileged activity and send security alerts for unusual elevation. Shared administrator accounts are prohibited except controlled emergency accounts. Maintain two emergency accounts with protected credentials, alert on every use, test quarterly and review each use within one business day. Rotate emergency credentials immediately after use, and whenever exposure is suspected.
 
 Service identities require an owner, documented purpose, minimum permissions, non-interactive sign-in and stored secrets in an approved vault. Prefer short-lived workload credentials. Static secrets must have a defined maximum lifetime of 90 days unless a documented technical exception applies; rotate immediately on exposure or relevant staff departure. Secrets must never appear in code or ordinary documents.
 

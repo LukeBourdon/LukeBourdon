@@ -1,4 +1,4 @@
-# Board decision paper — information security policy suite
+# Board decision paper - information security policy suite
 
 **Northbridge Cloud Services Ltd | 14 September 2026 | Decision requested | Internal**
 
@@ -24,8 +24,10 @@ The suite applies to all employees, contractors and third parties using Northbri
 | Days 0–30 | Classify priority data stores; issue approved transfer guidance | Privacy Lead | Owner decisions for customer, HR and finance stores |
 | Days 0–30 | Obtain acknowledgements; provide accessible induction | People Lead | 100% active workforce completion or recorded absence follow-up |
 | Days 0–30 | Enforce privileged MFA; disable legacy authentication after dependency checks | IT Manager | Configuration exports and negative authentication tests |
-| Days 31–60 | Complete access reviews and resolve stale privileges | IT Manager | Owner-approved reviews and removal tickets |
-| Days 31–90 | Run incident tabletop and recovery exercise | COO | Timed exercise, lessons and tracked actions |
+| Days 0–30 | Complete the first privileged/supplier and workforce access reviews; remove known stale access within 48 hours | IT Manager | Owner-approved reviews and removal tickets |
+| Days 0–30 | Run the initial incident tabletop and recovery exercise; schedule follow-up testing through day 90 | COO | Timed exercise, lessons and tracked actions |
+
+The assessment-based urgent deadlines remain in force if policy approval is delayed. Remove known stale access within 48 hours of assessment, complete privileged MFA by day 14 and verify P1 controls by 14 October 2026. The effective date does not postpone urgent protection. Requirements with an explicitly longer rollout period, such as classification of remaining stores by day 90, follow that stated milestone; other requirements apply from the effective date. Any missed milestone requires a recorded exception and interim safeguards.
 
 Planning assumption: £12,000 one-off implementation support plus up to £1,500/month for incremental identity, monitoring and learning capability; 35 internal staff-days over 90 days. These are fictional planning estimates, not supplier quotations. Finance must validate procurement costs before commitment. They overlap with the gap-analysis programme and must not be added as a separate budget without de-duplication.
 
@@ -37,6 +39,6 @@ No exception may waive a legal duty. The COO may approve a documented temporary 
 
 | Decision | Board minute reference | Approver | Date | Effective date |
 | --- | --- | --- | --- | --- |
-| Pending — approve / approve with conditions / return for revision | Pending | Board | Pending | 30 days after approval |
+| Pending - approve / approve with conditions / return for revision | Pending | Board | Pending | 30 days after approval |
 
 The Company Secretary records conditions and the final versions approved. Security reviews the suite annually and after material incidents, legal changes or changes to the business. Material changes return to the Board; editorial corrections are versioned by Security.
