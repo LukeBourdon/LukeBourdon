@@ -1,4 +1,4 @@
-# Risk assessment — executive recommendation
+# Risk assessment - executive recommendation
 
 **Northbridge Cloud Services Ltd | Fictional | 14 September 2026**
 
@@ -6,7 +6,7 @@ The 16 scenarios comprise **4 Critical, 10 High, 2 Medium and 0 Low current risk
 
 The immediate priorities are R01 identity compromise, R02 ransomware, R07 exposed vulnerabilities and R13 delayed detection, each scoring 20. Authorise urgent stale-access removal, exposed-secret rotation, unmanaged-device restrictions and on-call escalation. Within 30 days, require evidence of MFA coverage, vulnerability closure, protected logs and a complete restore. Engineering and IT must test changes so emergency access and essential services remain recoverable.
 
-R05 recovery dependency and R06/R08/R09 supplier, software-chain and privileged-access exposure remain High. Lower numerical position does not make them optional: sequence them with the foundational identity and recovery work. R06 should be managed through the vendor pre-onboarding gate before sharing employee data.
+R05 recovery dependency and R06/R08/R09 supplier, software-chain and privileged-access exposure remain High. Lower numerical position does not make them optional: sequence them with the foundational identity and recovery work. R06 is a prospective onboarding risk: Alder has not received Northbridge data. Its current score estimates exposure if onboarding proceeded with the assessed safeguards; it is not evidence of a live Alder incident. Manage it through the vendor gate before sharing employee data. R06, R08 and R11 retain their current impact level in the target score because their proposed safeguards do not establish a smaller worst credible consequence.
 
 The full remediation workstreams and cost assumptions are maintained in the ISO gap-analysis project to avoid duplicate budgets. Each risk's Annex A references identify the corresponding action acceptance tests. The proposed Board decision is to resource mitigation, assign the named owners and require review on 14 October 2026. No risk acceptance has been signed.
 

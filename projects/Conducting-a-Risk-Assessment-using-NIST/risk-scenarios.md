@@ -1,8 +1,8 @@
 # Risk scenario analysis and treatment evidence
 
-All SIM-R observations are synthetic assumptions linked to the baseline. Impact reductions are forecasts only: they assume containment, reduced exposure or faster recovery limits harm, rather than merely reducing the chance of an event.
+All SIM-R observations are synthetic assumptions linked to the baseline. Confidence is low because no source evidence has been verified. Target reductions require the scenario-specific tests below. Initial milestones do not replace later action dependencies or risk-acceptance decisions.
 
-## R01 — Identity / confidentiality
+## R01 - Identity / confidentiality
 
 | Field | Analysis |
 | --- | --- |
@@ -15,13 +15,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L4 × I5 = 20 (Critical) |
 | Treatment / risk owner | Enforce MFA block legacy sign-in restrict sessions and test recovery / IT Manager |
 | Control links | 5.16, 5.17, 8.5 |
-| Target assumption | Impact held constant: treatment mainly reduces event likelihood. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability. |
+| Acceptance evidence | ACT-5.16: Disable stale accounts and demonstrate an end-to-end leaver test. ACT-5.17: Secret scan is clear and vault access is restricted. ACT-8.5: Report 100% coverage or approved exceptions and negative legacy test. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R02 — Malware / availability
+## R02 - Malware / availability
 
 | Field | Analysis |
 | --- | --- |
@@ -34,13 +35,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L4 × I5 = 20 (Critical) |
 | Treatment / risk owner | Enrol or block unmanaged devices isolate backups and prove full restoration / IT Manager |
 | Control links | 8.1, 8.7, 8.13 |
-| Target assumption | Lower impact assumes the proposed containment, minimisation or recovery measures limit the damage; retain current impact until a test demonstrates this. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact 4 assumes isolation prevents spread and a clean restore limits interruption to under 24 hours. Test both; ransomware involving exfiltration requires a separate confidentiality assessment. |
+| Acceptance evidence | ACT-8.1: Device inventory reconciles to 120 compliant or blocked endpoints. ACT-8.7: All endpoints report healthy and safe test alert is triaged. ACT-8.13: Restore test proves integrity recovery time and data age. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R03 — Data handling / confidentiality
+## R03 - Data handling / confidentiality
 
 | Field | Analysis |
 | --- | --- |
@@ -53,13 +55,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L4 × I4 = 16 (High) |
 | Treatment / risk owner | Classify exports restrict named sharing and test leakage alerts / Privacy Lead |
 | Control links | 5.12, 5.14, 8.12 |
-| Target assumption | Impact held constant: treatment mainly reduces event likelihood. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability. |
+| Acceptance evidence | ACT-5.12: Owners approve classifications for customer HR and finance. ACT-5.14: Negative test blocks public Confidential shares. ACT-8.12: Safe test export triggers response and public sharing is blocked. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R04 — Access / integrity
+## R04 - Access / integrity
 
 | Field | Analysis |
 | --- | --- |
@@ -72,13 +75,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L3 × I4 = 12 (High) |
 | Treatment / risk owner | Disable stale access reconcile HR and repositories and verify revocation / IT Manager |
 | Control links | 5.16, 5.18, 8.4 |
-| Target assumption | Impact held constant: treatment mainly reduces event likelihood. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability. |
+| Acceptance evidence | ACT-5.16: Disable stale accounts and demonstrate an end-to-end leaver test. ACT-5.18: Owners decide each entitlement and removals pass retest. ACT-8.4: Former contractor cannot access and self-merge is blocked. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R05 — Resilience / availability
+## R05 - Resilience / availability
 
 | Field | Analysis |
 | --- | --- |
@@ -91,13 +95,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L3 × I5 = 15 (High) |
 | Treatment / risk owner | Test restore improve recovery points and implement tested failover / Head of Engineering |
 | Control links | 5.30, 8.13, 8.14 |
-| Target assumption | Lower impact assumes the proposed containment, minimisation or recovery measures limit the damage; retain current impact until a test demonstrates this. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact 3 requires demonstrated restoration in under 8 hours with no higher financial or contractual impact and no more than 4 hours of lost data. Meeting exactly 8 hours alone leaves impact at least 4 under this matrix. |
+| Acceptance evidence | ACT-5.30: Timed restore demonstrates 8-hour RTO and 4-hour RPO or raises exception. ACT-8.13: Restore test proves integrity recovery time and data age. ACT-8.14: Zone-failure exercise meets agreed continuity objectives. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R06 — Supplier / privacy
+## R06 - Supplier / privacy
 
 | Field | Analysis |
 | --- | --- |
@@ -110,13 +115,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L3 × I5 = 15 (High) |
 | Treatment / risk owner | Hold onboarding until privacy contract MFA and restore evidence pass review / People Lead |
 | Control links | 5.19, 5.20, 5.34 |
-| Target assumption | Lower impact assumes the proposed containment, minimisation or recovery measures limit the damage; retain current impact until a test demonstrates this. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact remains 5: stronger onboarding checks reduce the chance of exposure, but do not reduce the harm if bank and health information is disclosed. |
+| Acceptance evidence | ACT-5.19: All critical suppliers have owners and current assessments. ACT-5.20: Legal checks executed critical supplier agreements. ACT-5.34: Privacy signs inventory and relevant assessments with tracked actions. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R07 — Application / integrity
+## R07 - Application / integrity
 
 | Field | Analysis |
 | --- | --- |
@@ -129,13 +135,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L4 × I5 = 20 (Critical) |
 | Treatment / risk owner | Triage exploited exposures within 24h fix or isolate within 72h and rescan / Head of Engineering |
 | Control links | 8.8, 8.29 |
-| Target assumption | Impact held constant: treatment mainly reduces event likelihood. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability. |
+| Acceptance evidence | ACT-8.8: Critical exposure is fixed or isolated within 72 hours and rescanned. ACT-8.29: Release evidence includes independent retest of high findings. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R08 — Supply chain / integrity
+## R08 - Supply chain / integrity
 
 | Field | Analysis |
 | --- | --- |
@@ -148,13 +155,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L3 × I5 = 15 (High) |
 | Treatment / risk owner | Inventory components scan dependencies require signed reviewed builds and rollback tests / Head of Engineering |
 | Control links | 5.21, 8.25, 8.28 |
-| Target assumption | Lower impact assumes the proposed containment, minimisation or recovery measures limit the damage; retain current impact until a test demonstrates this. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact remains 5: review, scanning and rollback do not reverse data theft or all integrity harm from a malicious release. |
+| Acceptance evidence | ACT-5.21: Trace production support and component chains to owners. ACT-8.25: Two releases show completed gates and risk decisions. ACT-8.28: Sample pull requests and static scan show required checks. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R09 — Privileged misuse / confidentiality
+## R09 - Privileged misuse / confidentiality
 
 | Field | Analysis |
 | --- | --- |
@@ -167,13 +175,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L3 × I5 = 15 (High) |
 | Treatment / risk owner | Use time-bound elevation independent approval and export monitoring / Head of Engineering |
 | Control links | 5.3, 8.2, 8.16 |
-| Target assumption | Impact held constant: treatment mainly reduces event likelihood. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability. |
+| Acceptance evidence | ACT-5.3: Try a self-approved deployment and inspect ten change records. ACT-8.2: Elevation expires and six legacy grants are removed. ACT-8.16: Out-of-hours safe test generates acknowledged incident. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R10 — Privacy / retention
+## R10 - Privacy / retention
 
 | Field | Analysis |
 | --- | --- |
@@ -186,13 +195,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L4 × I4 = 16 (High) |
 | Treatment / risk owner | Map copies automate deletion use synthetic test data and retain decision evidence / Privacy Lead |
 | Control links | 5.34, 8.10, 8.11, 8.33 |
-| Target assumption | Lower impact assumes the proposed containment, minimisation or recovery measures limit the damage; retain current impact until a test demonstrates this. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact 3 assumes verified removal of unnecessary copies materially limits affected records and people. Record remaining volume and harm; a deletion procedure alone is insufficient. |
+| Acceptance evidence | ACT-5.34: Privacy signs inventory and relevant assessments with tracked actions. ACT-8.10: Synthetic record is removed across active stores and lifecycle is evidenced. ACT-8.11: Scan test stores and verify no unapproved identifiable records. ACT-8.33: Synthetic test dataset is owned time-limited and deleted on expiry. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R11 — Fraud / financial integrity
+## R11 - Fraud / financial integrity
 
 | Field | Analysis |
 | --- | --- |
@@ -205,13 +215,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L3 × I4 = 12 (High) |
 | Treatment / risk owner | Require known-number callback and dual approval; practise payment scenario / Finance Director |
 | Control links | 5.3, 6.3 |
-| Target assumption | Lower impact assumes the proposed containment, minimisation or recovery measures limit the damage; retain current impact until a test demonstrates this. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact remains 4: callback and dual approval reduce the chance of fraud; no transaction cap or demonstrated recovery limits the loss if fraud succeeds. |
+| Acceptance evidence | ACT-5.3: Try a self-approved deployment and inspect ten change records. ACT-6.3: Completion and knowledge checks are recorded with follow-up. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R12 — Physical loss / confidentiality
+## R12 - Physical loss / confidentiality
 
 | Field | Analysis |
 | --- | --- |
@@ -224,13 +235,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L2 × I4 = 8 (Medium) |
 | Treatment / risk owner | Verify encryption restrict local exports and test immediate loss response / IT Manager |
 | Control links | 6.7, 7.9, 8.1 |
-| Target assumption | Impact held constant: treatment mainly reduces event likelihood. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-12-13 / 2026-10-14 |
+| Target assumption | Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability. |
+| Acceptance evidence | ACT-6.7: Scenario checks and device compliance sample pass. ACT-7.9: Staff scenario check and asset sample confirm safeguards. ACT-8.1: Device inventory reconciles to 120 compliant or blocked endpoints. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-12-13 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R13 — Detection / operational
+## R13 - Detection / operational
 
 | Field | Analysis |
 | --- | --- |
@@ -243,13 +255,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L4 × I5 = 20 (Critical) |
 | Treatment / risk owner | Route urgent alerts to on-call and retain protected investigation logs / Security Lead |
 | Control links | 5.24, 8.15, 8.16 |
-| Target assumption | Lower impact assumes the proposed containment, minimisation or recovery measures limit the damage; retain current impact until a test demonstrates this. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact 4 requires a timed after-hours exercise demonstrating containment before widespread harm and an assessment of remaining privacy and integrity consequences. Longer retention alone does not lower impact. |
+| Acceptance evidence | ACT-5.24: Tabletop confirms commander and escalation route. ACT-8.15: By 14 October verify at least 90-day retention configuration, restricted deletion rights and retrieval of newly ingested records; keep the operating-evidence check open until a genuine 90-day-old record is retrieved, target 12 January 2027 if enabled on 14 October. ACT-8.16: Out-of-hours safe test generates acknowledged incident. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R14 — Supplier / availability
+## R14 - Supplier / availability
 
 | Field | Analysis |
 | --- | --- |
@@ -262,13 +275,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L3 × I4 = 12 (High) |
 | Treatment / risk owner | Test daily export and secure fallback customer contact workflow / Customer Operations Lead |
 | Control links | 5.22, 5.29, 5.30 |
-| Target assumption | Lower impact assumes the proposed containment, minimisation or recovery measures limit the damage; retain current impact until a test demonstrates this. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact 3 requires a tested fallback that restores useful customer coordination in under 8 hours, with no higher impact dimension. A vendor uptime promise is insufficient. |
+| Acceptance evidence | ACT-5.22: Critical supplier review records include action follow-up. ACT-5.29: Exercise demonstrates controlled access during identity outage. ACT-5.30: Timed restore demonstrates 8-hour RTO and 4-hour RPO or raises exception. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R15 — Environmental / availability
+## R15 - Environmental / availability
 
 | Field | Analysis |
 | --- | --- |
@@ -281,13 +295,14 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L2 × I3 = 6 (Medium) |
 | Treatment / risk owner | Relocate equipment and rehearse safe remote continuity / Facilities Lead |
 | Control links | 7.5, 7.8, 7.11 |
-| Target assumption | Impact held constant: treatment mainly reduces event likelihood. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-12-13 / 2026-10-14 |
+| Target assumption | Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability. |
+| Acceptance evidence | ACT-7.5: Document hazard review and test escalation for water leak. ACT-7.8: Facilities walkthrough confirms safe protected location. ACT-7.11: Power-loss exercise records service impact and recovery. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-12-13 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
 
-## R16 — People / availability
+## R16 - People / availability
 
 | Field | Analysis |
 | --- | --- |
@@ -300,8 +315,10 @@ All SIM-R observations are synthetic assumptions linked to the baseline. Impact 
 | Current exposure | L3 × I4 = 12 (High) |
 | Treatment / risk owner | Document recovery and have a deputy execute the exercise unaided / COO |
 | Control links | 5.37, 6.3, 5.30 |
-| Target assumption | Lower impact assumes the proposed containment, minimisation or recovery measures limit the damage; retain current impact until a test demonstrates this. |
-| Acceptance evidence | Complete and independently retest the linked Annex A action-register closure tests; attach results before recalculating current risk. |
-| Uncertainty | Low — synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
-| Decision / status | Mitigate / Open — treatment proposed |
-| Due / next review | 2026-10-14 / 2026-10-14 |
+| Target assumption | Impact 3 requires a deputy to recover the service unaided in under 8 hours with no higher impact dimension. Document availability and recovery evidence, not just attendance at training. |
+| Acceptance evidence | ACT-5.37: Deputy executes identity recovery from runbook in exercise. ACT-6.3: Completion and knowledge checks are recorded with follow-up. ACT-5.30: Timed restore demonstrates 8-hour RTO and 4-hour RPO or raises exception. |
+| Evidence confidence | Low - synthetic desk assumptions; obtain configuration exports, source records and owner interviews before operational decisions. |
+| Decision / status | Mitigate / Open - treatment proposed |
+| Initial milestone / next review | 2026-10-14 / 2026-10-14 |
+| Milestone scope | Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment. |
+
