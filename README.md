@@ -8,7 +8,7 @@ I am working towards a career as a **Governance, Risk and Compliance (GRC) Analy
 
 I have completed the following portfolio case studies using **Northbridge Cloud Services Ltd**, a fictional UK software company. Each project contains the assessment or policy work, the assumptions behind it and actionable recommendations.
 
-These are self-directed, AI-assisted portfolio exercises. Company evidence, vendor responses and phishing outcomes are simulated; they are not claims of client work, live campaign delivery, certification, implemented remediation or board approval.
+These are self-directed portfolio exercises. Company evidence, vendor responses and phishing outcomes are simulated; they are not claims of client work, live campaign delivery, certification, implemented remediation or board approval.
 
 | Project | What I produced | Skills demonstrated |
 | --- | --- | --- |
