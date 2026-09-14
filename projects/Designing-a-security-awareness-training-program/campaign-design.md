@@ -8,7 +8,7 @@ Fictional population: 120 staff across five departments. Use a benign document-s
 
 The live implementation, if separately authorised, must use a company-controlled training domain, safe landing page, scoped allowlisting and access-controlled event collection. Do not broadly disable email protections. Domain and message authentication setup must be reviewed by IT. This repository contains no operational sending script.
 
-## Example message — fictional artefact
+## Example message - fictional artefact
 
 From display name: Northbridge Workspace Updates
 Subject: Please review the revised team workspace guide
@@ -22,7 +22,7 @@ The `.example` address is a non-operational placeholder. The message is not an e
 
 ## Landing page and measurements
 
-The landing page identifies the exercise and provides a short explanation after the interaction. To illustrate a higher-risk action without collecting secrets, offer a clearly dummy continuation button rather than a password field. The report calls this a **dummy submission**, never a real credential submission. The page must not accept or retain passwords. Capture a pseudonymous participant token, campaign, time and event type only. Prevent or separately classify automated scanner events through a tested method agreed with IT.
+The landing page identifies the exercise and provides a short explanation after the interaction. To illustrate a higher-risk action without collecting secrets, offer a clearly dummy continuation button rather than a password field. The report calls this a **dummy submission**, never a real credential submission. The page must not accept or retain passwords. Because the dummy action is clearly labelled and the page reveals the exercise, this measures interaction with the training page, not willingness to surrender credentials. Capture a pseudonymous participant token, campaign, time and event type only. Prevent or separately classify automated scanner events through a tested method agreed with IT.
 
 ## Comparison design
 

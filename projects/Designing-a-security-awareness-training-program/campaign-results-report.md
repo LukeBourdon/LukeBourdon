@@ -1,4 +1,4 @@
-# Completed simulation report — synthetic worked example
+# Completed simulation report - synthetic worked example
 
 **Northbridge | SIM-PHISH-2026-01 | Exercise closure: 31 August 2026 | Report prepared: 14 September 2026**
 
@@ -6,7 +6,7 @@
 
 ## Executive finding
 
-In the synthetic cohort, unique clickers fell from 24/120 (20.00%) to 10/120 (8.33%): a decrease of **11.67 percentage points**, or **58.33% relative** to baseline. Reporters increased from 30/120 (25.00%) to 60/120 (50.00%). These are descriptive calculations, not a causal estimate of training effectiveness. Same-cohort reuse, prior exposure, unscored lure difficulty and invented data prevent a real effectiveness claim.
+In the synthetic cohort, unique clickers fell from 24/120 (20.00%) to 10/120 (8.33%): a decrease of **11.67 percentage points**, or **58.33% relative** to baseline. Reporters increased from 30/120 (25.00%) to 60/120 (50.00%). Median reporting time did not improve (53.0 to 53.5 minutes among reporters); more reports do not establish faster response. These are descriptive calculations, not a causal estimate of training effectiveness. Same-cohort reuse, prior exposure, unscored lure difficulty and invented data prevent a real effectiveness claim.
 
 ## Results and denominators
 
