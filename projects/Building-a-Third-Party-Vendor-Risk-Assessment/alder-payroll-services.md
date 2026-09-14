@@ -1,6 +1,6 @@
-# Alder Payroll Services — fictional assessment
+# Alder Payroll Services - fictional assessment
 
-Service: Managed payroll and HR processing. Data: Employee bank details and limited HR health information; Restricted. Inherent tier: **Critical** — Restricted employee data and payment processing require enhanced assessment. Recovery/criticality: Payroll processing around pay-run deadlines; proposed RTO 8h / RPO 24h.
+Service: Managed payroll and HR processing. Data: Employee bank details and limited HR health information; Restricted. Inherent tier: **Critical** - Restricted employee data and payment processing require enhanced assessment. Recovery/criticality: Payroll processing around pay-run deadlines; proposed RTO 8h / RPO 24h.
 
 Assessment date: 14 September 2026. Fictional vendor respondent: service security contact. Assessor: portfolio analyst role; independent sign-off pending.
 

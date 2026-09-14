@@ -1,6 +1,6 @@
-# Beacon Support Cloud — fictional assessment
+# Beacon Support Cloud - fictional assessment
 
-Service: Customer support ticketing. Data: Customer contact details and support messages; Confidential; no HR health data. Inherent tier: **High** — Customer data and operational dependency require enhanced assessment. Recovery/criticality: Daily customer coordination; RTO 8h / RPO 24h.
+Service: Customer support ticketing. Data: Customer contact details and support messages; Confidential; no HR health data. Inherent tier: **High** - Customer data and operational dependency require enhanced assessment. Recovery/criticality: Daily customer coordination; RTO 8h / RPO 24h.
 
 Assessment date: 14 September 2026. Fictional vendor respondent: service security contact. Assessor: portfolio analyst role; independent sign-off pending.
 

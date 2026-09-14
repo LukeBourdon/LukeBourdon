@@ -580,10 +580,10 @@
         },
         {
           "question_id": "Q05",
-          "score": 1,
+          "score": 0,
           "response": "Storage encryption asserted",
           "evidence": "SIM-C05: no key-access or rotation evidence",
-          "weighted_gap": 5
+          "weighted_gap": 10
         },
         {
           "question_id": "Q06",
@@ -622,10 +622,10 @@
         },
         {
           "question_id": "Q11",
-          "score": 1,
+          "score": 0,
           "response": "Monthly patches claimed",
           "evidence": "SIM-C11: no risk-based SLA or closure sample",
-          "weighted_gap": 5
+          "weighted_gap": 10
         },
         {
           "question_id": "Q12",
@@ -713,15 +713,15 @@
         },
         {
           "question_id": "Q24",
-          "score": 1,
+          "score": 0,
           "response": "Code review claimed",
           "evidence": "SIM-C24: no enforced secret or dependency checks",
-          "weighted_gap": 3
+          "weighted_gap": 6
         }
       ],
-      "gap_points": 148,
+      "gap_points": 161,
       "max_points": 182,
-      "gap_percent": 81.32,
+      "gap_percent": 88.46,
       "base_rating": "Critical",
       "unmet_gates": [
         "Q03",
