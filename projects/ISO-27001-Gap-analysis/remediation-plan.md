@@ -1,4 +1,4 @@
-# Remediation programme — proposed, not implemented
+# Remediation programme - proposed, not implemented
 
 **Programme owner: COO | Review: weekly for P1, monthly thereafter | Baseline: 14 September 2026**
 
@@ -20,7 +20,7 @@ Total planning effort: 135 internal staff-days across 180 days; assumptions need
 
 Within 48 hours, the IT Manager should remove the two fictional stale employee accounts and the departed contractor's repository access; rotate the exposed deployment secret; restrict unmanaged-device access; preserve relevant logs. These are proposed urgent actions, not completed changes.
 
-By day 7, assign data and service owners, reconcile privileged identities, establish on-call response and block unapproved public customer-data links. Engineering should isolate any actively exploited exposure pending a fix. By day 14, complete privileged MFA and first restoration rehearsal. By day 30, validate all P1 acceptance tests or submit a documented exception with interim protection and a realistic completion date. Complex resilience changes may need interim recovery controls and escalation rather than a false completion claim.
+By day 7, assign data and service owners, reconcile privileged identities, establish on-call response and block unapproved public customer-data links. Engineering should isolate any actively exploited exposure pending a fix. By day 14, complete privileged MFA and first restoration rehearsal. For ACT-8.15, enable and test protected log retention by day 30, then keep its 90-day retrieval check open until enough real time has elapsed (12 January 2027 if enabled on 14 October). Do not backdate test records or treat configuration as proof of historical retention. By day 30, validate all other P1 acceptance tests or submit a documented exception with interim protection and a realistic completion date. Complex resilience changes may need interim recovery controls and escalation rather than a false completion claim.
 
 ## Closure procedure
 
@@ -28,7 +28,7 @@ The implementer attaches configuration/ticket/test evidence to the action ID. Se
 
 If risk remains High or Critical, submit to the Board with options, consequence, compensating measures and time-limited acceptance request. The COO may accept Medium exposure within delegated appetite and a review date; owners may accept Low with documented rationale. No risk acceptance cancels an applicable legal obligation. All acceptance authority is proposed for this fictional case.
 
-## Example closure record — template
+## Example closure record - template
 
 Action ACT-8.5; population: all interactive workforce and administrative identities; implementer: IT Manager; change reference: pending; coverage export: pending; negative legacy-auth test: pending; emergency recovery test: pending; exceptions: pending; independent reviewer: pending; residual risk decision: pending. **Status remains Open.**
 

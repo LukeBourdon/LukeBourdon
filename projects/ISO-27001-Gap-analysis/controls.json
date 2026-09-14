@@ -1100,7 +1100,7 @@
     "status": "Partial",
     "current_state": "Authentication logs retain only seven days",
     "remediation": "Centralise protected logs with approved risk-based retention",
-    "closure_test": "Retrieve a 90-day test record and verify restricted deletion rights",
+    "closure_test": "By 14 October verify at least 90-day retention configuration, restricted deletion rights and retrieval of newly ingested records; keep the operating-evidence check open until a genuine 90-day-old record is retrieved, target 12 January 2027 if enabled on 14 October",
     "owner": "Security Lead",
     "priority": "P1",
     "evidence": "SIM-A8.15",

@@ -1,12 +1,12 @@
-# Annex A — technological controls
+# Annex A - technological controls
 
 Baseline: 31 August 2026. All observations are synthetic. Read the [method](assessment-report.md) before interpreting status. IDs identify the reference control; topics below are original shorthand.
 
-## 8.1 — Endpoint hardening
+## 8.1 - Endpoint hardening
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | 108 of 120 laptops are enrolled in management (SIM-A8.1) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -15,11 +15,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Device inventory reconciles to 120 compliant or blocked endpoints |
 | Action status | Open |
 
-## 8.2 — Administrative privileges
+## 8.2 - Administrative privileges
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Six engineers hold standing production administrator rights (SIM-A8.2) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -28,11 +28,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Elevation expires and six legacy grants are removed |
 | Action status | Open |
 
-## 8.3 — Data access boundaries
+## 8.3 - Data access boundaries
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Customer exports are readable by all support staff (SIM-A8.3) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -41,11 +41,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Positive and negative access tests confirm least privilege |
 | Action status | Open |
 
-## 8.4 — Source repository permissions
+## 8.4 - Source repository permissions
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Departed contractor remains in a code repository team (SIM-A8.4) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -54,11 +54,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Former contractor cannot access and self-merge is blocked |
 | Action status | Open |
 
-## 8.5 — Authentication safeguards
+## 8.5 - Authentication safeguards
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | MFA covers 85% of workforce and legacy sign-in is enabled (SIM-A8.5) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -67,11 +67,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Report 100% coverage or approved exceptions and negative legacy test |
 | Action status | Open |
 
-## 8.6 — Resource capacity oversight
+## 8.6 - Resource capacity oversight
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | CPU alerts exist but no demand forecasting or load test (SIM-A8.6) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -80,11 +80,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Load test meets agreed service latency and headroom targets |
 | Action status | Open |
 
-## 8.7 — Malicious software defence
+## 8.7 - Malicious software defence
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Endpoint protection excludes the 12 unmanaged laptops (SIM-A8.7) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -93,11 +93,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | All endpoints report healthy and safe test alert is triaged |
 | Action status | Open |
 
-## 8.8 — Vulnerability treatment
+## 8.8 - Vulnerability treatment
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Patching is quarterly with no exploited-vulnerability prioritisation (SIM-A8.8) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -106,11 +106,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Critical exposure is fixed or isolated within 72 hours and rescanned |
 | Action status | Open |
 
-## 8.9 — Secure configuration baselines
+## 8.9 - Secure configuration baselines
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Cloud settings are changed manually without drift checks (SIM-A8.9) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -119,11 +119,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Intentional safe deviation is detected and corrected |
 | Action status | Open |
 
-## 8.10 — Data removal
+## 8.10 - Data removal
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Customer deletion requests do not cover exports and backups (SIM-A8.10) |
 | Status | Missing |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -132,11 +132,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Synthetic record is removed across active stores and lifecycle is evidenced |
 | Action status | Open |
 
-## 8.11 — Non-production data protection
+## 8.11 - Non-production data protection
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Developers copy identifiable customer records into test (SIM-A8.11) |
 | Status | Missing |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -145,11 +145,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Scan test stores and verify no unapproved identifiable records |
 | Action status | Open |
 
-## 8.12 — Data-exfiltration safeguards
+## 8.12 - Data-exfiltration safeguards
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | No controls detect broad customer exports or public links (SIM-A8.12) |
 | Status | Missing |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -158,11 +158,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Safe test export triggers response and public sharing is blocked |
 | Action status | Open |
 
-## 8.13 — Backup assurance
+## 8.13 - Backup assurance
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Nightly backups exist but last full restore was over a year ago (SIM-A8.13) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -171,11 +171,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Restore test proves integrity recovery time and data age |
 | Action status | Open |
 
-## 8.14 — Service resilience
+## 8.14 - Service resilience
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Production has one availability-zone dependency (SIM-A8.14) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -184,24 +184,24 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Zone-failure exercise meets agreed continuity objectives |
 | Action status | Open |
 
-## 8.15 — Security log retention
+## 8.15 - Security log retention
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Authentication logs retain only seven days (SIM-A8.15) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
 | Action | ACT-8.15: Centralise protected logs with approved risk-based retention |
 | Owner / deadline | Security Lead / 2026-10-14 / P1 |
-| Closure evidence | Retrieve a 90-day test record and verify restricted deletion rights |
+| Closure evidence | By 14 October verify at least 90-day retention configuration, restricted deletion rights and retrieval of newly ingested records; keep the operating-evidence check open until a genuine 90-day-old record is retrieved, target 12 January 2027 if enabled on 14 October |
 | Action status | Open |
 
-## 8.16 — Detection and response monitoring
+## 8.16 - Detection and response monitoring
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Alerts are reviewed only during office hours (SIM-A8.16) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -210,11 +210,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Out-of-hours safe test generates acknowledged incident |
 | Action status | Open |
 
-## 8.17 — Consistent system time
+## 8.17 - Consistent system time
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Managed hosts use approved time sources and drift alerts (SIM-A8.17) |
 | Status | Implemented |
 | Gap / implication | No gap identified within the limited fictional sample; continue assurance. |
@@ -223,11 +223,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Sample host timestamps agree within defined tolerance |
 | Action status | Scheduled assurance |
 
-## 8.18 — Powerful administration tools
+## 8.18 - Powerful administration tools
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Support can run unrestricted administrative utilities (SIM-A8.18) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -236,11 +236,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Unapproved utility fails and approved use is attributable |
 | Action status | Open |
 
-## 8.19 — Production software installation
+## 8.19 - Production software installation
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Developers can install production packages interactively (SIM-A8.19) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -249,11 +249,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Unapproved install is denied and exception is logged |
 | Action status | Open |
 
-## 8.20 — Network defence
+## 8.20 - Network defence
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Firewall rules have no owner or expiry review (SIM-A8.20) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -262,11 +262,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Connectivity tests permit only approved flows |
 | Action status | Open |
 
-## 8.21 — Network service assurance
+## 8.21 - Network service assurance
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | ISP contract lacks tested incident escalation (SIM-A8.21) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -275,11 +275,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Provider contact test and contract review demonstrate response route |
 | Action status | Open |
 
-## 8.22 — Network isolation
+## 8.22 - Network isolation
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Office guest network can reach internal printer management (SIM-A8.22) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -288,11 +288,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Guest-to-management negative connectivity test passes |
 | Action status | Open |
 
-## 8.23 — Web destination filtering
+## 8.23 - Web destination filtering
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | No managed protection against known malicious web destinations (SIM-A8.23) |
 | Status | Missing |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -301,11 +301,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Safe known test category is blocked and exception reviewed |
 | Action status | Open |
 
-## 8.24 — Encryption and key governance
+## 8.24 - Encryption and key governance
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Encryption is enabled but key ownership and rotation are undocumented (SIM-A8.24) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -314,11 +314,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Verify encryption configuration and rotation without data loss |
 | Action status | Open |
 
-## 8.25 — Secure delivery lifecycle
+## 8.25 - Secure delivery lifecycle
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Code review exists but security stages are optional (SIM-A8.25) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -327,11 +327,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Two releases show completed gates and risk decisions |
 | Action status | Open |
 
-## 8.26 — Application security requirements
+## 8.26 - Application security requirements
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Product specifications omit security acceptance criteria (SIM-A8.26) |
 | Status | Missing |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -340,11 +340,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Sample feature has testable security requirements before build |
 | Action status | Open |
 
-## 8.27 — Secure architecture decisions
+## 8.27 - Secure architecture decisions
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | No documented trust boundaries or design principles (SIM-A8.27) |
 | Status | Missing |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -353,11 +353,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Architecture review traces a threat to design mitigation |
 | Action status | Open |
 
-## 8.28 — Coding safeguards
+## 8.28 - Coding safeguards
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Peer review lacks input-validation and secrets checklist (SIM-A8.28) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -366,11 +366,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Sample pull requests and static scan show required checks |
 | Action status | Open |
 
-## 8.29 — Security release testing
+## 8.29 - Security release testing
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Functional tests run but penetration findings lack retest (SIM-A8.29) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -379,11 +379,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Release evidence includes independent retest of high findings |
 | Action status | Open |
 
-## 8.30 — Contract development assurance
+## 8.30 - Contract development assurance
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Contract developers have no agreed security acceptance terms (SIM-A8.30) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -392,11 +392,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Sample delivered component meets security and access terms |
 | Action status | Open |
 
-## 8.31 — Environment separation
+## 8.31 - Environment separation
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Subscriptions differ but production identities access test data copies (SIM-A8.31) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -405,11 +405,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Test identity cannot administer production and test data is sanitised |
 | Action status | Open |
 
-## 8.32 — Controlled system changes
+## 8.32 - Controlled system changes
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Emergency changes lack retrospective review (SIM-A8.32) |
 | Status | Partial |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -418,11 +418,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Ten changes include evidence and emergency review within one day |
 | Action status | Open |
 
-## 8.33 — Test dataset handling
+## 8.33 - Test dataset handling
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | No owner retention or cleanup for test datasets (SIM-A8.33) |
 | Status | Missing |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |
@@ -431,11 +431,11 @@ Baseline: 31 August 2026. All observations are synthetic. Read the [method](asse
 | Closure evidence | Synthetic test dataset is owned time-limited and deleted on expiry |
 | Action status | Open |
 
-## 8.34 — Safe audit testing
+## 8.34 - Safe audit testing
 
 | Field | Assessment |
 | --- | --- |
-| Applicability | Applicable — Developed SaaS platform and corporate technology are in scope |
+| Applicability | Applicable - Developed SaaS platform and corporate technology are in scope |
 | Current state / evidence | Security testing is performed without written rules of engagement (SIM-A8.34) |
 | Status | Missing |
 | Gap / implication | The described baseline does not provide complete, repeatable assurance for this topic; treatment below is required. |

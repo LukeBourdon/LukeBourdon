@@ -19,7 +19,7 @@ The scope is the [company context](company-context.md). Map every Annex A refere
 
 No averaging is used to declare compliance. Applicability is not the same as implementation. Each inclusion is justified by the business scope; the register is an input to a Statement of Applicability, not an approved final SoA. Security and the COO must validate necessity against assessed risks and obligations and record approval. Controls beyond Annex A may also be needed.
 
-P1 means urgent exposure or a foundational dependency with a 30-day target (14 October 2026); P2 means important planned improvement within 90 days (13 December 2026); P3 means sustained assurance or longer-term improvement within 180 days (13 March 2027). These priorities are locally defined, not ISO-prescribed. Where engineering delivery exceeds a target, implement an interim safeguard and escalate residual risk before the deadline.
+P1 means urgent exposure or a foundational dependency with a 30-day target (14 October 2026); P2 means important planned improvement within 90 days (13 December 2026); P3 means sustained assurance or longer-term improvement within 180 days (13 March 2027). These priorities are locally defined, not ISO-prescribed. Where operating evidence needs an elapsed observation period, the target covers configuration and initial testing only; retain a separately dated open assurance check. ACT-8.15 therefore cannot be fully verified closed after only 30 days. Where engineering delivery exceeds a target, implement an interim safeguard and escalate residual risk before the deadline.
 
 ## Full ISMS work remains
 
