@@ -1,4 +1,4 @@
-# Northbridge Cloud Services Ltd — case-study context
+# Northbridge Cloud Services Ltd - case-study context
 
 **Fictional portfolio exercise.** Northbridge, its staff, customers, vendors, evidence and results are invented. This is completed analytical project work, not a claim of employment, live testing, certification, implemented remediation or actual board approval.
 

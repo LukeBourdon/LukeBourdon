@@ -24,9 +24,9 @@
       "8.5"
     ],
     "evidence": "SIM-R01",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 25,
@@ -34,7 +34,10 @@
     "current_score": 20,
     "current_rating": "Critical",
     "target_score": 10,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability.",
+    "acceptance_evidence": "ACT-5.16: Disable stale accounts and demonstrate an end-to-end leaver test. ACT-5.17: Secret scan is clear and vault access is restricted. ACT-8.5: Report 100% coverage or approved exceptions and negative legacy test.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R02",
@@ -63,9 +66,9 @@
       "8.13"
     ],
     "evidence": "SIM-R02",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 20,
@@ -73,7 +76,10 @@
     "current_score": 20,
     "current_rating": "Critical",
     "target_score": 8,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact 4 assumes isolation prevents spread and a clean restore limits interruption to under 24 hours. Test both; ransomware involving exfiltration requires a separate confidentiality assessment.",
+    "acceptance_evidence": "ACT-8.1: Device inventory reconciles to 120 compliant or blocked endpoints. ACT-8.7: All endpoints report healthy and safe test alert is triaged. ACT-8.13: Restore test proves integrity recovery time and data age.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R03",
@@ -100,9 +106,9 @@
       "8.12"
     ],
     "evidence": "SIM-R03",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 16,
@@ -110,7 +116,10 @@
     "current_score": 16,
     "current_rating": "High",
     "target_score": 8,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability.",
+    "acceptance_evidence": "ACT-5.12: Owners approve classifications for customer HR and finance. ACT-5.14: Negative test blocks public Confidential shares. ACT-8.12: Safe test export triggers response and public sharing is blocked.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R04",
@@ -137,9 +146,9 @@
       "8.4"
     ],
     "evidence": "SIM-R04",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 16,
@@ -147,7 +156,10 @@
     "current_score": 12,
     "current_rating": "High",
     "target_score": 4,
-    "target_rating": "Low"
+    "target_rating": "Low",
+    "target_assumption": "Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability.",
+    "acceptance_evidence": "ACT-5.16: Disable stale accounts and demonstrate an end-to-end leaver test. ACT-5.18: Owners decide each entitlement and removals pass retest. ACT-8.4: Former contractor cannot access and self-merge is blocked.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R05",
@@ -174,9 +186,9 @@
       "8.14"
     ],
     "evidence": "SIM-R05",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 15,
@@ -184,7 +196,10 @@
     "current_score": 15,
     "current_rating": "High",
     "target_score": 6,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact 3 requires demonstrated restoration in under 8 hours with no higher financial or contractual impact and no more than 4 hours of lost data. Meeting exactly 8 hours alone leaves impact at least 4 under this matrix.",
+    "acceptance_evidence": "ACT-5.30: Timed restore demonstrates 8-hour RTO and 4-hour RPO or raises exception. ACT-8.13: Restore test proves integrity recovery time and data age. ACT-8.14: Zone-failure exercise meets agreed continuity objectives.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R06",
@@ -201,7 +216,7 @@
     "current_likelihood": 3,
     "current_impact": 5,
     "target_likelihood": 2,
-    "target_impact": 4,
+    "target_impact": 5,
     "likelihood_impact_rationale": "Sensitive employee data would create serious harm; supplier effectiveness is uncertain",
     "treatment": "Hold onboarding until privacy contract MFA and restore evidence pass review",
     "owner": "People Lead",
@@ -211,17 +226,20 @@
       "5.34"
     ],
     "evidence": "SIM-R06",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 20,
     "inherent_rating": "Critical",
     "current_score": 15,
     "current_rating": "High",
-    "target_score": 8,
-    "target_rating": "Medium"
+    "target_score": 10,
+    "target_rating": "Medium",
+    "target_assumption": "Impact remains 5: stronger onboarding checks reduce the chance of exposure, but do not reduce the harm if bank and health information is disclosed.",
+    "acceptance_evidence": "ACT-5.19: All critical suppliers have owners and current assessments. ACT-5.20: Legal checks executed critical supplier agreements. ACT-5.34: Privacy signs inventory and relevant assessments with tracked actions.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R07",
@@ -247,9 +265,9 @@
       "8.29"
     ],
     "evidence": "SIM-R07",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 25,
@@ -257,7 +275,10 @@
     "current_score": 20,
     "current_rating": "Critical",
     "target_score": 10,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability.",
+    "acceptance_evidence": "ACT-8.8: Critical exposure is fixed or isolated within 72 hours and rescanned. ACT-8.29: Release evidence includes independent retest of high findings.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R08",
@@ -274,7 +295,7 @@
     "current_likelihood": 3,
     "current_impact": 5,
     "target_likelihood": 2,
-    "target_impact": 4,
+    "target_impact": 5,
     "likelihood_impact_rationale": "Build chain is trusted without component assurance; compromise can reach customer workloads",
     "treatment": "Inventory components scan dependencies require signed reviewed builds and rollback tests",
     "owner": "Head of Engineering",
@@ -284,17 +305,20 @@
       "8.28"
     ],
     "evidence": "SIM-R08",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 20,
     "inherent_rating": "Critical",
     "current_score": 15,
     "current_rating": "High",
-    "target_score": 8,
-    "target_rating": "Medium"
+    "target_score": 10,
+    "target_rating": "Medium",
+    "target_assumption": "Impact remains 5: review, scanning and rollback do not reverse data theft or all integrity harm from a malicious release.",
+    "acceptance_evidence": "ACT-5.21: Trace production support and component chains to owners. ACT-8.25: Two releases show completed gates and risk decisions. ACT-8.28: Sample pull requests and static scan show required checks.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R09",
@@ -321,9 +345,9 @@
       "8.16"
     ],
     "evidence": "SIM-R09",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 20,
@@ -331,7 +355,10 @@
     "current_score": 15,
     "current_rating": "High",
     "target_score": 10,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability.",
+    "acceptance_evidence": "ACT-5.3: Try a self-approved deployment and inspect ten change records. ACT-8.2: Elevation expires and six legacy grants are removed. ACT-8.16: Out-of-hours safe test generates acknowledged incident.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R10",
@@ -359,9 +386,9 @@
       "8.33"
     ],
     "evidence": "SIM-R10",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 16,
@@ -369,7 +396,10 @@
     "current_score": 16,
     "current_rating": "High",
     "target_score": 6,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact 3 assumes verified removal of unnecessary copies materially limits affected records and people. Record remaining volume and harm; a deletion procedure alone is insufficient.",
+    "acceptance_evidence": "ACT-5.34: Privacy signs inventory and relevant assessments with tracked actions. ACT-8.10: Synthetic record is removed across active stores and lifecycle is evidenced. ACT-8.11: Scan test stores and verify no unapproved identifiable records. ACT-8.33: Synthetic test dataset is owned time-limited and deleted on expiry.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R11",
@@ -386,7 +416,7 @@
     "current_likelihood": 3,
     "current_impact": 4,
     "target_likelihood": 2,
-    "target_impact": 3,
+    "target_impact": 4,
     "likelihood_impact_rationale": "Plausible business email attack; existing filters do not validate payment instructions",
     "treatment": "Require known-number callback and dual approval; practise payment scenario",
     "owner": "Finance Director",
@@ -395,17 +425,20 @@
       "6.3"
     ],
     "evidence": "SIM-R11",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 16,
     "inherent_rating": "High",
     "current_score": 12,
     "current_rating": "High",
-    "target_score": 6,
-    "target_rating": "Medium"
+    "target_score": 8,
+    "target_rating": "Medium",
+    "target_assumption": "Impact remains 4: callback and dual approval reduce the chance of fraud; no transaction cap or demonstrated recovery limits the loss if fraud succeeds.",
+    "acceptance_evidence": "ACT-5.3: Try a self-approved deployment and inspect ten change records. ACT-6.3: Completion and knowledge checks are recorded with follow-up.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R12",
@@ -432,9 +465,9 @@
       "8.1"
     ],
     "evidence": "SIM-R12",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-12-13",
     "review_date": "2026-10-14",
     "inherent_score": 16,
@@ -442,7 +475,10 @@
     "current_score": 8,
     "current_rating": "Medium",
     "target_score": 4,
-    "target_rating": "Low"
+    "target_rating": "Low",
+    "target_assumption": "Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability.",
+    "acceptance_evidence": "ACT-6.7: Scenario checks and device compliance sample pass. ACT-7.9: Staff scenario check and asset sample confirm safeguards. ACT-8.1: Device inventory reconciles to 120 compliant or blocked endpoints.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R13",
@@ -470,9 +506,9 @@
       "8.16"
     ],
     "evidence": "SIM-R13",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 20,
@@ -480,7 +516,10 @@
     "current_score": 20,
     "current_rating": "Critical",
     "target_score": 8,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact 4 requires a timed after-hours exercise demonstrating containment before widespread harm and an assessment of remaining privacy and integrity consequences. Longer retention alone does not lower impact.",
+    "acceptance_evidence": "ACT-5.24: Tabletop confirms commander and escalation route. ACT-8.15: By 14 October verify at least 90-day retention configuration, restricted deletion rights and retrieval of newly ingested records; keep the operating-evidence check open until a genuine 90-day-old record is retrieved, target 12 January 2027 if enabled on 14 October. ACT-8.16: Out-of-hours safe test generates acknowledged incident.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R14",
@@ -507,9 +546,9 @@
       "5.30"
     ],
     "evidence": "SIM-R14",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 12,
@@ -517,7 +556,10 @@
     "current_score": 12,
     "current_rating": "High",
     "target_score": 6,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact 3 requires a tested fallback that restores useful customer coordination in under 8 hours, with no higher impact dimension. A vendor uptime promise is insufficient.",
+    "acceptance_evidence": "ACT-5.22: Critical supplier review records include action follow-up. ACT-5.29: Exercise demonstrates controlled access during identity outage. ACT-5.30: Timed restore demonstrates 8-hour RTO and 4-hour RPO or raises exception.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R15",
@@ -544,9 +586,9 @@
       "7.11"
     ],
     "evidence": "SIM-R15",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-12-13",
     "review_date": "2026-10-14",
     "inherent_score": 9,
@@ -554,7 +596,10 @@
     "current_score": 6,
     "current_rating": "Medium",
     "target_score": 3,
-    "target_rating": "Low"
+    "target_rating": "Low",
+    "target_assumption": "Impact held constant. The forecast likelihood reduction requires successful preventive-control tests and confirmation that the assessed exposure has narrowed; it is not a measured probability.",
+    "acceptance_evidence": "ACT-7.5: Document hazard review and test escalation for water leak. ACT-7.8: Facilities walkthrough confirms safe protected location. ACT-7.11: Power-loss exercise records service impact and recovery.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   },
   {
     "id": "R16",
@@ -581,9 +626,9 @@
       "5.30"
     ],
     "evidence": "SIM-R16",
-    "status": "Open \u2014 treatment proposed",
+    "status": "Open - treatment proposed",
     "decision": "Mitigate",
-    "confidence": "Low \u2014 synthetic desk assumptions",
+    "confidence": "Low - synthetic desk assumptions",
     "due": "2026-10-14",
     "review_date": "2026-10-14",
     "inherent_score": 16,
@@ -591,6 +636,9 @@
     "current_score": 12,
     "current_rating": "High",
     "target_score": 6,
-    "target_rating": "Medium"
+    "target_rating": "Medium",
+    "target_assumption": "Impact 3 requires a deputy to recover the service unaided in under 8 hours with no higher impact dimension. Document availability and recovery evidence, not just attendance at training.",
+    "acceptance_evidence": "ACT-5.37: Deputy executes identity recovery from runbook in exercise. ACT-6.3: Completion and knowledge checks are recorded with follow-up. ACT-5.30: Timed restore demonstrates 8-hour RTO and 4-hour RPO or raises exception.",
+    "due_scope": "Initial treatment and interim-protection decision; full closure requires all acceptance evidence and independent reassessment."
   }
 ]

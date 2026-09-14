@@ -1,4 +1,4 @@
-# AUP-001 — Acceptable use policy
+# AUP-001 - Acceptable use policy
 
 **Northbridge Cloud Services Ltd | Internal | v1.0 | 14 September 2026**
 

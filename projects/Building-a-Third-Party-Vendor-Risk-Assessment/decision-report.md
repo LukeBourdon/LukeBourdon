@@ -6,7 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Beacon Support Cloud | High | 7/182 (3.85%) | Low | None | Low | Approve with tracked improvements |
 | Alder Payroll Services | Critical | 35/182 (19.23%) | Moderate | Q03, Q09, Q13 | High | Hold onboarding pending gate closure |
-| Cedar Insight Analytics | High | 148/182 (81.32%) | Critical | Q03, Q06, Q09, Q13, Q17 | Critical | Do not onboard |
+| Cedar Insight Analytics | High | 161/182 (88.46%) | Critical | Q03, Q06, Q09, Q13, Q17 | Critical | Do not onboard |
 
 ## Beacon Support Cloud
 

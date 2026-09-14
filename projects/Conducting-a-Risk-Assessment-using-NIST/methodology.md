@@ -1,4 +1,4 @@
-# Risk assessment method — NIST SP 800-30 Rev. 1 informed
+# Risk assessment method - NIST SP 800-30 Rev. 1 informed
 
 Purpose: prioritise threats to the fictional company's business services and information over the next 12 months. Prepared by Luke Bourdon for a portfolio exercise. Scope and assumptions are in [company context](company-context.md). This is a tailored qualitative method informed by NIST; the 5×5 matrix, thresholds and acceptance authorities are local choices, not a NIST-mandated calculation or certification.
 
@@ -49,7 +49,7 @@ Proposed appetite: no routine acceptance of High/Critical risk. Escalate Critica
 
 ## Three distinct scores
 
-**Inherent** excludes the stated safeguards. **Current residual** accounts only for the existing baseline safeguards. **Target residual** assumes the proposed treatment passes its acceptance tests. It must not replace current risk while work is merely planned. Impact may fall only where measures reduce consequences, such as restoration or data minimisation. Risk owners reassess and independent reviewers check closure evidence.
+**Inherent** excludes the stated safeguards. **Current residual** accounts only for the existing baseline safeguards. **Target residual** assumes the proposed treatment passes its acceptance tests. It must not replace current risk while work is merely planned. Impact may fall only where measures reduce consequences, such as restoration or data minimisation. Risk owners reassess and independent reviewers check closure evidence. Evidence confidence is Low for every invented case; this means substantial real-world uncertainty, not low risk. Initial milestone dates require treatment progress and interim protection. Full closure follows the linked action deadlines and scenario-specific evidence, including elapsed observation periods.
 
 Treatments can mitigate, avoid, transfer/share or accept. These 16 scenarios use mitigation; the vendor decision pack demonstrates avoidance through a do-not-onboard recommendation. Insurance or contractual allocation does not remove privacy or operational accountability. Correlated risks (for example identity compromise, ransomware and delayed detection) overlap and must not be counted as independent losses.
 

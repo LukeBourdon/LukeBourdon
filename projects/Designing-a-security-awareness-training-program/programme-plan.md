@@ -16,18 +16,20 @@ By completion, staff should verify unusual requests using a known channel, repor
 | Week 2 | All staff: 15-minute data handling | Choose classification and named sharing route using synthetic examples | Privacy |
 | Week 3 | Finance/HR: 25-minute scenario | Verify bank-detail changes and protect employee records | Finance / People |
 | Week 4 | Engineering: 30-minute workshop | Remove secret from code, rotate it and apply independent release review | Engineering |
-| Week 5 | Support/Sales: 20-minute role practice | Verify identity before export and limit recipients | Customer Operations |
+| Weeks 3–4 | Support/Sales: 20-minute role practice | Verify identity before export and limit recipients | Customer Operations |
 | Week 6 | Leadership: 30-minute tabletop | Decide incident escalation, service risk and notification advice | COO |
-| Week 7 | All staff: authorised baseline simulation | Measure unique human clicks, reports and reporting delay | Security |
+| Week 7 | All staff: authorised post-launch reference simulation | Measure unique human clicks, reports and reporting delay | Security |
 | Week 8 | Targeted reinforcement | Private coaching for risky actions and non-reporting; short practical exercise | Managers |
 | Week 10 | All staff: matched follow-up simulation | Compare descriptive outcomes with lure difficulty and limitations recorded | Security |
 | Week 12 | Management review | Review behaviour, completion, technical findings and next-quarter actions | COO |
+
+The week-7 reference simulation follows the launch teaching, so it cannot measure change from an untrained starting point. Compare it with week 10 only as a post-launch reinforcement measure. The separate August synthetic example uses its own baseline-before-refresher timeline.
 
 Joiners complete core content before unsupervised access and role-specific learning within 30 days. Refresh annually, with quarterly short scenarios and updates after material incidents. Repeat simulations no more often than the agreed programme requires; avoid predictable schedules and excessive disruption.
 
 ## Targets and follow-up
 
-Targets are local objectives, not industry benchmarks: 100% active-user completion within 30 days (absence deferrals tracked), knowledge check at least 80%, follow-up click rate below 10%, report rate at least 50%, and 100% people taking the dummy submission action offered prompt private coaching. A low click rate alone is not proof of resilience. Failure of the knowledge check leads to supported review and another scenario, not removal of employment rights.
+Targets are local objectives, not industry benchmarks: 100% active-user core and applicable non-leadership role-module completion within 30 days (the leadership tabletop is separately due in week 6) (absence deferrals tracked), knowledge check at least 80%, follow-up click rate below 10%, report rate at least 50%, and 100% people taking the dummy submission action offered prompt private coaching. A low click rate alone is not proof of resilience. Failure of the knowledge check leads to supported review and another scenario, not removal of employment rights.
 
 Use eligible active users for completion denominators; report absences separately. Security verifies report-button delivery and alert response alongside learning. Escalate overdue learning to managers after five business days and the People Lead after ten; distinguish leave/accessibility issues from refusal. Keep personal learning records restricted and publish aggregate department results only where groups are large enough to avoid identification.
 

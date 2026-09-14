@@ -1,4 +1,4 @@
-# GRC portfolio — Northbridge Cloud Services Ltd
+# GRC portfolio - Northbridge Cloud Services Ltd
 
 Five connected fictional case studies prepared by Luke Bourdon. Read the baseline assessment before treating the proposed policies or treatments as implemented controls.
 

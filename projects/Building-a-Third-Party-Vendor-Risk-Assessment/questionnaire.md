@@ -9,7 +9,7 @@ Complete for the exact contracted service, hosting locations and support arrange
 | Q03 | Identity | 5 | Is MFA enforced for every privileged and remote support account? | Configuration export and sample access test |
 | Q04 | Identity | 4 | How are joiner mover leaver access and periodic reviews controlled? | Lifecycle records and recent entitlement review |
 | Q05 | Data protection | 5 | How are customer data and secrets encrypted and keys managed? | Architecture key access and rotation evidence |
-| Q06 | Privacy | 5 | Will you sign processing terms defining roles instructions and assistance? | Executed draft-ready DPA and service-specific schedule |
+| Q06 | Privacy | 5 | Will you sign processing terms defining roles instructions and assistance? | Reviewed DPA and service-specific schedule; signed copy required before processing |
 | Q07 | Privacy | 4 | Where is data stored and accessed and how are transfers assessed? | Location map transfer mechanism and assessment where needed |
 | Q08 | Supply chain | 4 | Who are subprocessors and how are changes notified and assessed? | Current subprocessor list approval flow and notice period |
 | Q09 | Incidents | 5 | How quickly will you notify us and support investigation of an incident? | Contract notification terms and escalation contacts |

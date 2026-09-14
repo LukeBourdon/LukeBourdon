@@ -14,7 +14,7 @@ Bands: 0–15 inclusive Low; above 15–35 Moderate; above 35–60 High; above 6
 
 ## Mandatory gates override an attractive average
 
-Q03 (MFA), Q06 (processing terms), Q09 (timely incident notice), Q13 (tested recovery), and Q17 (tenant isolation) must score 2 for these services before production onboarding. If any score below 2, final risk is at least High and onboarding is blocked pending evidence/contract resolution. A Critical base score stays Critical. Gate closure must be independently verified; commercial urgency is not evidence.
+Q03 (MFA), Q06 (processing terms), Q09 (timely incident notice), Q13 (tested recovery), and Q17 (tenant isolation) must score 2 for these services before production onboarding. If any score below 2, final risk is at least High and onboarding is blocked pending evidence/contract resolution. A Critical base score stays Critical. At assessment, Q06 may score 2 for legally reviewed, agreed wording ready for signature; an executed agreement remains a separate mandatory condition before processing, even when the questionnaire rating is Low. Gate closure must be independently verified; commercial urgency is not evidence.
 
 The notification expectation is without undue delay with a contractual outer target of 24 hours after awareness for these cases; it is a procurement requirement, not a universal statutory deadline for every vendor. Recovery expectations are service-specific and must be written into the contract.
 
