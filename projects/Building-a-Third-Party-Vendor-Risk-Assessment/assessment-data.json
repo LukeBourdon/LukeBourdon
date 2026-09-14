@@ -1,0 +1,736 @@
+{
+  "questions": [
+    {
+      "id": "Q01",
+      "domain": "Governance",
+      "weight": 3,
+      "question": "Who owns security and when were policies reviewed?",
+      "evidence_requested": "Approved policy register and accountable owner"
+    },
+    {
+      "id": "Q02",
+      "domain": "Assurance",
+      "weight": 4,
+      "question": "What independent assurance covers this exact service and period?",
+      "evidence_requested": "Scope dates exceptions and remediation from assurance report"
+    },
+    {
+      "id": "Q03",
+      "domain": "Identity",
+      "weight": 5,
+      "question": "Is MFA enforced for every privileged and remote support account?",
+      "evidence_requested": "Configuration export and sample access test"
+    },
+    {
+      "id": "Q04",
+      "domain": "Identity",
+      "weight": 4,
+      "question": "How are joiner mover leaver access and periodic reviews controlled?",
+      "evidence_requested": "Lifecycle records and recent entitlement review"
+    },
+    {
+      "id": "Q05",
+      "domain": "Data protection",
+      "weight": 5,
+      "question": "How are customer data and secrets encrypted and keys managed?",
+      "evidence_requested": "Architecture key access and rotation evidence"
+    },
+    {
+      "id": "Q06",
+      "domain": "Privacy",
+      "weight": 5,
+      "question": "Will you sign processing terms defining roles instructions and assistance?",
+      "evidence_requested": "Executed draft-ready DPA and service-specific schedule"
+    },
+    {
+      "id": "Q07",
+      "domain": "Privacy",
+      "weight": 4,
+      "question": "Where is data stored and accessed and how are transfers assessed?",
+      "evidence_requested": "Location map transfer mechanism and assessment where needed"
+    },
+    {
+      "id": "Q08",
+      "domain": "Supply chain",
+      "weight": 4,
+      "question": "Who are subprocessors and how are changes notified and assessed?",
+      "evidence_requested": "Current subprocessor list approval flow and notice period"
+    },
+    {
+      "id": "Q09",
+      "domain": "Incidents",
+      "weight": 5,
+      "question": "How quickly will you notify us and support investigation of an incident?",
+      "evidence_requested": "Contract notification terms and escalation contacts"
+    },
+    {
+      "id": "Q10",
+      "domain": "Incidents",
+      "weight": 3,
+      "question": "When was your incident response plan exercised and what changed?",
+      "evidence_requested": "Exercise report and closed corrective actions"
+    },
+    {
+      "id": "Q11",
+      "domain": "Vulnerability",
+      "weight": 5,
+      "question": "How are exploited and critical vulnerabilities prioritised and fixed?",
+      "evidence_requested": "Remediation SLAs scan results and closure tickets"
+    },
+    {
+      "id": "Q12",
+      "domain": "Application",
+      "weight": 4,
+      "question": "When was this service penetration tested and were high findings retested?",
+      "evidence_requested": "Service-specific test summary and retest evidence"
+    },
+    {
+      "id": "Q13",
+      "domain": "Resilience",
+      "weight": 5,
+      "question": "Can you restore customer data within our agreed RTO and RPO?",
+      "evidence_requested": "Timed restore report and backup architecture"
+    },
+    {
+      "id": "Q14",
+      "domain": "Resilience",
+      "weight": 4,
+      "question": "How is continuity tested including major dependency failures?",
+      "evidence_requested": "Business continuity exercise and failure scenarios"
+    },
+    {
+      "id": "Q15",
+      "domain": "Monitoring",
+      "weight": 4,
+      "question": "How are relevant logs protected retained and reviewed out of hours?",
+      "evidence_requested": "Logging configuration retention and response rota"
+    },
+    {
+      "id": "Q16",
+      "domain": "Data lifecycle",
+      "weight": 4,
+      "question": "How are data retention deletion and termination requests verified?",
+      "evidence_requested": "Retention schedule deletion test and backup lifecycle"
+    },
+    {
+      "id": "Q17",
+      "domain": "Isolation",
+      "weight": 5,
+      "question": "How do you prevent one customer accessing another customer's data?",
+      "evidence_requested": "Tenant separation design and negative access tests"
+    },
+    {
+      "id": "Q18",
+      "domain": "Workforce",
+      "weight": 2,
+      "question": "How are personnel screened trained and bound by confidentiality?",
+      "evidence_requested": "Role-appropriate screening and completion records"
+    },
+    {
+      "id": "Q19",
+      "domain": "Change",
+      "weight": 3,
+      "question": "How are releases reviewed tested approved and rolled back?",
+      "evidence_requested": "Change samples and rollback test"
+    },
+    {
+      "id": "Q20",
+      "domain": "Exit",
+      "weight": 3,
+      "question": "Can we export usable data and obtain exit support without lock-in?",
+      "evidence_requested": "Test export format assistance terms and fees"
+    },
+    {
+      "id": "Q21",
+      "domain": "Physical",
+      "weight": 2,
+      "question": "How are office and hosting physical risks assured?",
+      "evidence_requested": "Facility assurance and responsibility allocation"
+    },
+    {
+      "id": "Q22",
+      "domain": "Financial",
+      "weight": 2,
+      "question": "How do you demonstrate service viability and appropriate insurance?",
+      "evidence_requested": "Recent financial review and coverage schedule"
+    },
+    {
+      "id": "Q23",
+      "domain": "Transparency",
+      "weight": 3,
+      "question": "Will you disclose material incidents and permit proportionate audit?",
+      "evidence_requested": "Contract audit rights and incident history statement"
+    },
+    {
+      "id": "Q24",
+      "domain": "Development",
+      "weight": 3,
+      "question": "How are secrets dependencies and coding risks controlled?",
+      "evidence_requested": "Build checks component inventory and secret-scan evidence"
+    }
+  ],
+  "vendors": [
+    {
+      "name": "Beacon Support Cloud",
+      "service": "Customer support ticketing",
+      "data": "Customer contact details and support messages; Confidential; no HR health data",
+      "inherent_tier": "High",
+      "criticality": "Daily customer coordination; RTO 8h / RPO 24h",
+      "rationale": "Customer data and operational dependency require enhanced assessment",
+      "responses": [
+        {
+          "question_id": "Q01",
+          "score": 2,
+          "response": "Security Lead owns annual policy review",
+          "evidence": "SIM-B01: signed policy register dated July 2026",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q02",
+          "score": 2,
+          "response": "Annual assurance covers support SaaS",
+          "evidence": "SIM-B02: current scoped assurance summary; no unresolved material exceptions",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q03",
+          "score": 2,
+          "response": "MFA mandatory for privileged and remote accounts",
+          "evidence": "SIM-B03: coverage export and negative password-only test",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q04",
+          "score": 2,
+          "response": "Departures revoke sessions and reviews are quarterly",
+          "evidence": "SIM-B04: five lifecycle records and July entitlement review",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q05",
+          "score": 2,
+          "response": "Transport and storage encrypted; keys restricted",
+          "evidence": "SIM-B05: design and logged rotation test",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q06",
+          "score": 2,
+          "response": "Processing schedule ready for execution",
+          "evidence": "SIM-B06: reviewed DPA with instructions and assistance duties",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q07",
+          "score": 2,
+          "response": "UK storage and UK support access only",
+          "evidence": "SIM-B07: location/access map consistent with service contract",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q08",
+          "score": 2,
+          "response": "Listed subprocessors with advance change notice",
+          "evidence": "SIM-B08: two listed providers and 30-day notice clause",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q09",
+          "score": 2,
+          "response": "Notify without undue delay with contractual 24-hour outer target after awareness",
+          "evidence": "SIM-B09: incident clause and tested escalation route",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q10",
+          "score": 2,
+          "response": "June incident exercise actions closed",
+          "evidence": "SIM-B10: exercise report and retest tickets",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q11",
+          "score": 2,
+          "response": "Urgent exploited exposure is fixed or isolated within 72 hours",
+          "evidence": "SIM-B11: sampled tickets meet stated SLA",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q12",
+          "score": 2,
+          "response": "Service tested in June with high findings retested",
+          "evidence": "SIM-B12: scope and retest summary include customer APIs",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q13",
+          "score": 2,
+          "response": "Restore meets support target of 8h RTO and 24h RPO",
+          "evidence": "SIM-B13: restore achieved 5h and data age 6h",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q14",
+          "score": 2,
+          "response": "Dependency outage exercise completed",
+          "evidence": "SIM-B14: secure support failover exercise passed",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q15",
+          "score": 2,
+          "response": "24-hour response rota and protected logs",
+          "evidence": "SIM-B15: after-hours test and retention/access configuration",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q16",
+          "score": 1,
+          "response": "Active deletion works; backup re-deletion is manual",
+          "evidence": "SIM-B16: procedure exists but restore-and-redelete test absent",
+          "weighted_gap": 4
+        },
+        {
+          "question_id": "Q17",
+          "score": 2,
+          "response": "Tenant isolation tested",
+          "evidence": "SIM-B17: cross-tenant negative tests passed",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q18",
+          "score": 2,
+          "response": "Role checks and annual learning mandatory",
+          "evidence": "SIM-B18: five personnel records and 100% completion",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q19",
+          "score": 2,
+          "response": "Independent change approval with rollback",
+          "evidence": "SIM-B19: ten change records and rollback test",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q20",
+          "score": 1,
+          "response": "JSON export available; bulk attachments not yet tested",
+          "evidence": "SIM-B20: sample export omits large attachments",
+          "weighted_gap": 3
+        },
+        {
+          "question_id": "Q21",
+          "score": 2,
+          "response": "Hosting and office responsibilities documented",
+          "evidence": "SIM-B21: facility assurance scope matches locations",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q22",
+          "score": 2,
+          "response": "Financial review and coverage supplied",
+          "evidence": "SIM-B22: scenario review shows sufficient runway and relevant cover",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q23",
+          "score": 2,
+          "response": "Audit cooperation and incident disclosure agreed",
+          "evidence": "SIM-B23: proportionate audit clause and history statement",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q24",
+          "score": 2,
+          "response": "Build scans and secret checks enforced",
+          "evidence": "SIM-B24: build evidence and component list",
+          "weighted_gap": 0
+        }
+      ],
+      "gap_points": 7,
+      "max_points": 182,
+      "gap_percent": 3.85,
+      "base_rating": "Low",
+      "unmet_gates": [],
+      "final_rating": "Low"
+    },
+    {
+      "name": "Alder Payroll Services",
+      "service": "Managed payroll and HR processing",
+      "data": "Employee bank details and limited HR health information; Restricted",
+      "inherent_tier": "Critical",
+      "criticality": "Payroll processing around pay-run deadlines; proposed RTO 8h / RPO 24h",
+      "rationale": "Restricted employee data and payment processing require enhanced assessment",
+      "responses": [
+        {
+          "question_id": "Q01",
+          "score": 2,
+          "response": "Annual policies owned by operations director",
+          "evidence": "SIM-A01: approved register and owner",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q02",
+          "score": 1,
+          "response": "Assurance report available from last year",
+          "evidence": "SIM-A02: report period expired; no bridge letter",
+          "weighted_gap": 4
+        },
+        {
+          "question_id": "Q03",
+          "score": 1,
+          "response": "MFA on administrators; two support exceptions remain",
+          "evidence": "SIM-A03: export identifies two password-only support accounts",
+          "weighted_gap": 5
+        },
+        {
+          "question_id": "Q04",
+          "score": 2,
+          "response": "Quarterly reviews and timed offboarding",
+          "evidence": "SIM-A04: five complete samples",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q05",
+          "score": 2,
+          "response": "Encrypted service with controlled key administration",
+          "evidence": "SIM-A05: key review and encryption configuration",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q06",
+          "score": 2,
+          "response": "Processing schedule includes payroll instructions",
+          "evidence": "SIM-A06: reviewed DPA ready to sign",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q07",
+          "score": 1,
+          "response": "UK hosting with occasional overseas support",
+          "evidence": "SIM-A07: access map supplied; transfer assessment incomplete",
+          "weighted_gap": 4
+        },
+        {
+          "question_id": "Q08",
+          "score": 2,
+          "response": "Subprocessors listed and advance notice offered",
+          "evidence": "SIM-A08: current list and 30-day notice",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q09",
+          "score": 1,
+          "response": "Notification promised within 72 hours of confirmation",
+          "evidence": "SIM-A09: confirmation trigger could delay awareness-based notice",
+          "weighted_gap": 5
+        },
+        {
+          "question_id": "Q10",
+          "score": 2,
+          "response": "Annual incident exercise completed",
+          "evidence": "SIM-A10: May exercise report and closed actions",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q11",
+          "score": 1,
+          "response": "Critical patch target is 30 days",
+          "evidence": "SIM-A11: no faster route for active exploitation",
+          "weighted_gap": 5
+        },
+        {
+          "question_id": "Q12",
+          "score": 2,
+          "response": "Independent test and high retest supplied",
+          "evidence": "SIM-A12: relevant payroll application covered",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q13",
+          "score": 1,
+          "response": "Backup jobs pass but full restore evidence is old",
+          "evidence": "SIM-A13: last full test 18 months ago; no current 8h/24h proof",
+          "weighted_gap": 5
+        },
+        {
+          "question_id": "Q14",
+          "score": 2,
+          "response": "Manual payroll continuity process exercised",
+          "evidence": "SIM-A14: tabletop confirms process and dual authorisation",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q15",
+          "score": 2,
+          "response": "Protected logs with on-call alerts",
+          "evidence": "SIM-A15: rota and one test alert record",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q16",
+          "score": 1,
+          "response": "Deletion covers active database only",
+          "evidence": "SIM-A16: exports and backup lifecycle missing from evidence",
+          "weighted_gap": 4
+        },
+        {
+          "question_id": "Q17",
+          "score": 2,
+          "response": "Tenant checks demonstrated",
+          "evidence": "SIM-A17: payroll tenant negative tests",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q18",
+          "score": 2,
+          "response": "Screening and confidentiality records current",
+          "evidence": "SIM-A18: five complete samples",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q19",
+          "score": 2,
+          "response": "Release approval and rollback documented",
+          "evidence": "SIM-A19: six reviewed changes",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q20",
+          "score": 2,
+          "response": "Payroll export tested",
+          "evidence": "SIM-A20: usable file and defined exit assistance",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q21",
+          "score": 2,
+          "response": "Physical responsibilities evidenced",
+          "evidence": "SIM-A21: relevant hosting assurance",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q22",
+          "score": 2,
+          "response": "Financial and insurance information reviewed",
+          "evidence": "SIM-A22: adequate fictional financial position",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q23",
+          "score": 2,
+          "response": "Audit rights and material incident history supplied",
+          "evidence": "SIM-A23: contract and signed statement",
+          "weighted_gap": 0
+        },
+        {
+          "question_id": "Q24",
+          "score": 1,
+          "response": "Dependency scan exists but secrets checks optional",
+          "evidence": "SIM-A24: pipeline settings show non-blocking scan",
+          "weighted_gap": 3
+        }
+      ],
+      "gap_points": 35,
+      "max_points": 182,
+      "gap_percent": 19.23,
+      "base_rating": "Moderate",
+      "unmet_gates": [
+        "Q03",
+        "Q09",
+        "Q13"
+      ],
+      "final_rating": "High"
+    },
+    {
+      "name": "Cedar Insight Analytics",
+      "service": "Proposed customer usage analytics",
+      "data": "Proposed identifiable customer event data; Confidential",
+      "inherent_tier": "High",
+      "criticality": "Non-essential analytics; service can be avoided",
+      "rationale": "External processing of identifiable data creates material exposure even when service is optional",
+      "responses": [
+        {
+          "question_id": "Q01",
+          "score": 1,
+          "response": "Founder handles security informally",
+          "evidence": "SIM-C01: unsigned policy draft",
+          "weighted_gap": 3
+        },
+        {
+          "question_id": "Q02",
+          "score": 0,
+          "response": "No independent assurance available",
+          "evidence": "SIM-C02: only marketing claims supplied",
+          "weighted_gap": 8
+        },
+        {
+          "question_id": "Q03",
+          "score": 0,
+          "response": "MFA is optional for administrators",
+          "evidence": "SIM-C03: screenshot confirms optional setting",
+          "weighted_gap": 10
+        },
+        {
+          "question_id": "Q04",
+          "score": 1,
+          "response": "Access removed manually on request",
+          "evidence": "SIM-C04: no recent review evidence",
+          "weighted_gap": 4
+        },
+        {
+          "question_id": "Q05",
+          "score": 1,
+          "response": "Storage encryption asserted",
+          "evidence": "SIM-C05: no key-access or rotation evidence",
+          "weighted_gap": 5
+        },
+        {
+          "question_id": "Q06",
+          "score": 0,
+          "response": "Standard terms offered without processor schedule",
+          "evidence": "SIM-C06: DPA request declined",
+          "weighted_gap": 10
+        },
+        {
+          "question_id": "Q07",
+          "score": 0,
+          "response": "Data may be accessed globally",
+          "evidence": "SIM-C07: no location map or transfer basis",
+          "weighted_gap": 8
+        },
+        {
+          "question_id": "Q08",
+          "score": 0,
+          "response": "Subprocessor list considered confidential",
+          "evidence": "SIM-C08: no list or change notification",
+          "weighted_gap": 8
+        },
+        {
+          "question_id": "Q09",
+          "score": 0,
+          "response": "No contractual notification deadline",
+          "evidence": "SIM-C09: terms disclaim response commitments",
+          "weighted_gap": 10
+        },
+        {
+          "question_id": "Q10",
+          "score": 0,
+          "response": "No response exercise conducted",
+          "evidence": "SIM-C10: questionnaire states not performed",
+          "weighted_gap": 6
+        },
+        {
+          "question_id": "Q11",
+          "score": 1,
+          "response": "Monthly patches claimed",
+          "evidence": "SIM-C11: no risk-based SLA or closure sample",
+          "weighted_gap": 5
+        },
+        {
+          "question_id": "Q12",
+          "score": 0,
+          "response": "No service penetration test",
+          "evidence": "SIM-C12: only automated homepage scan",
+          "weighted_gap": 8
+        },
+        {
+          "question_id": "Q13",
+          "score": 0,
+          "response": "Backups claimed but restore untested",
+          "evidence": "SIM-C13: no recovery objectives or test",
+          "weighted_gap": 10
+        },
+        {
+          "question_id": "Q14",
+          "score": 0,
+          "response": "Founder would handle an outage",
+          "evidence": "SIM-C14: no continuity plan or deputy",
+          "weighted_gap": 8
+        },
+        {
+          "question_id": "Q15",
+          "score": 1,
+          "response": "Basic logs retained",
+          "evidence": "SIM-C15: no after-hours review or deletion protection",
+          "weighted_gap": 4
+        },
+        {
+          "question_id": "Q16",
+          "score": 0,
+          "response": "Deletion on request with no verification",
+          "evidence": "SIM-C16: no lifecycle evidence",
+          "weighted_gap": 8
+        },
+        {
+          "question_id": "Q17",
+          "score": 0,
+          "response": "Shared dataset access not independently tested",
+          "evidence": "SIM-C17: tenant isolation assertion unsupported",
+          "weighted_gap": 10
+        },
+        {
+          "question_id": "Q18",
+          "score": 1,
+          "response": "Staff sign NDAs",
+          "evidence": "SIM-C18: no security learning records",
+          "weighted_gap": 2
+        },
+        {
+          "question_id": "Q19",
+          "score": 1,
+          "response": "Founder approves own releases",
+          "evidence": "SIM-C19: no independent approval or rollback test",
+          "weighted_gap": 3
+        },
+        {
+          "question_id": "Q20",
+          "score": 1,
+          "response": "CSV export available for core data",
+          "evidence": "SIM-C20: no termination assistance or attachment export",
+          "weighted_gap": 3
+        },
+        {
+          "question_id": "Q21",
+          "score": 1,
+          "response": "Cloud provider used for hosting",
+          "evidence": "SIM-C21: responsibilities and office controls unrecorded",
+          "weighted_gap": 2
+        },
+        {
+          "question_id": "Q22",
+          "score": 0,
+          "response": "Financials and cover not supplied",
+          "evidence": "SIM-C22: insufficient viability evidence",
+          "weighted_gap": 4
+        },
+        {
+          "question_id": "Q23",
+          "score": 0,
+          "response": "No audit rights or incident statement",
+          "evidence": "SIM-C23: contract excludes assurance access",
+          "weighted_gap": 6
+        },
+        {
+          "question_id": "Q24",
+          "score": 1,
+          "response": "Code review claimed",
+          "evidence": "SIM-C24: no enforced secret or dependency checks",
+          "weighted_gap": 3
+        }
+      ],
+      "gap_points": 148,
+      "max_points": 182,
+      "gap_percent": 81.32,
+      "base_rating": "Critical",
+      "unmet_gates": [
+        "Q03",
+        "Q06",
+        "Q09",
+        "Q13",
+        "Q17"
+      ],
+      "final_rating": "Critical"
+    }
+  ]
+}
