@@ -1,51 +1,17 @@
-# Hello, I'm Luke Bourdon
-<a href="https://www.linkedin.com/in/luke-bourdon/"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+# Conducting a risk assessment using NIST
 
+A completed fictional risk assessment prepared by Luke Bourdon using a tailored method informed by NIST SP 800-30 Rev. 1.
 
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+- [Method, impact criteria and risk matrix](projects/Conducting-a-Risk-Assessment-using-NIST/methodology.md)
+- [12-asset inventory with owners and C/I/A criticality](projects/Conducting-a-Risk-Assessment-using-NIST/asset-inventory.md)
+- [16-risk register](projects/Conducting-a-Risk-Assessment-using-NIST/risk-register.md)
+- [Detailed threat scenarios, uncertainty and treatment evidence](projects/Conducting-a-Risk-Assessment-using-NIST/risk-scenarios.md)
+- [Machine-readable register](projects/Conducting-a-Risk-Assessment-using-NIST/risk-register.json)
+- [Executive recommendation](projects/Conducting-a-Risk-Assessment-using-NIST/executive-summary.md)
+- [Company context](projects/Conducting-a-Risk-Assessment-using-NIST/company-context.md)
 
-## Objective
+Skills: asset identification, threat/vulnerability analysis, likelihood and impact rationale, inherent/current/target risk, treatment ownership and risk communication.
 
-My journey in Environmental science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a GRC Team as a GRC analyst.
+**All data is fictional.** Completing the assessment does not mean remediation was implemented or residual risk accepted.
 
-## Skills
-
-| Skill                                         | Associated Project         |
-|-----------------------------------------------|----------------------------|
-| SIEM Implementation and Log Analysis          | <a href="https://google.com">Detection Lab</a>|
-| Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
-| Security Automation with Shuffle SOAR         | SOC Automation Lab|
-| Incident Response Planning and Execution      | SOC Automation Lab|
-| Case Management with TheHive                  | SOC Automation Lab|
-| Scripting and Automation for Threat Mitigation | SOC Automation Lab|
-
-## Tools I use
-
-### Network
-<div>
-    <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Suricata-EF3B2D?&style=for-the-badge&logo=Suricata&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Zeek-777BB4?&style=for-the-badge&logo=Zeek&logoColor=white" />
-</div>
-
-### Endpoint
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
-</div>
-
-### SIEM
-<div>
-    <img src="https://img.shields.io/badge/-Microsoft_Sentinel-0078D4?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Elastic-005571?&style=for-the-badge&logo=Elastic&logoColor=white" />
-</div>
-
-## Certifications i have
-<div>
-<img src="https://img.shields.io/badge/-Security%2B-FF0000?&style=for-the-badge&logo=CompTIA&logoColor=white" />
-
-
-## Projects
-- Detection Lab
-- SOC Automation Project
+[Back to my GRC portfolio](https://github.com/LukeBourdon/LukeBourdon)
