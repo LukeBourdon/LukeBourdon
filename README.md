@@ -26,10 +26,6 @@ I aim to connect security requirements to business consequences: identify what m
 
 - **CompTIA Security+**
 
-## Additional project
-
-- [Detection Lab](https://github.com/LukeBourdon/Detection-Lab)
-
 ## Explore and reproduce
 
 Each project is available in its named branch. The main branch also contains the [complete project collection](projects/) and a [validation script](tools/validate_portfolio.py) that checks control coverage, arithmetic and local documentation links. Run `python3 tools/validate_portfolio.py` from the repository root.
